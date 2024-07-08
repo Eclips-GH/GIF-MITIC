@@ -9,19 +9,10 @@
         h1 {color: rgb(138, 21, 21);}
         h2 {color: rgb(138, 21, 21);}
         h3 {color: black;}
-        div {color: rgb(255, 0, 255); text-align: end;}
-        .button {
-        background-color: rgb(111, 231, 100);
-        border: 2px solid black;
-        color: black;
-        padding: 10px;
-        text-align: center; 
-        display: block;
-        font-size: 27px;
-        margin: 5px 485px;
-        cursor: pointer;
-        text-decoration: none;
-        }
+        div {font-size: x-large;}
+        .hidden {color: rgb(255, 0, 255); text-align: center; font-size: medium;}
+        .box {display: flex; align-items: center; justify-content: center;}
+
         
     </style>
 
@@ -34,13 +25,17 @@
 
     <body>
         <div>
-            <a href="Mattis.html" class="button">Mattis Lüdi</a>
-            <a href="Maude 1.html" class="button">Maude Oguey</a>
-            <a href="Nalini.html" class="button">Nalini Rosario </a>
-            <a href="César.html" class="button">César Corpataux</a>
+            <center>
+            Mattis<div class="box"><img src="assets/gif 1.gif" width="240" style="margin: 30px;"></div>
+            Maudes<div class="box"><img src="assets/gif 2.gif" width="240" style="margin: 30px;">
+            <img src="assets/gif 4.gif" width="240" style="margin: 30px;"></div>
+            Nalini<div class="box"><img src="assets/gif 3.gif" width="240" style="margin: 30px;"></div>
+            César<div class="box"><img src="assets/gif 5.gif" width="240" style="margin: 30px;"></div>
+            </center>
         </div>
         <br><br><br>
-        <h3><center>Merci d'avoir pris le temps de regardé</center></h3>
+        <h3><center>Merci d'avoir pris le temps de regardé.</center></h3>
+        <h3><center>tout à été rélisé par l'option MITIC du COGL</center></h3>
     </body>
 
     <head>
@@ -50,13 +45,14 @@
                             border: none;
                             text-decoration: none;
                             cursor: none;
-                            size: 1px;
+                            size: 0,001px;
                         }
         </style>
     </head>
 
     <body>
-        <div>petit bonus, trouve le bouton caché sur le site. bonne chance...</div>
+        <br><br>
+        <div class="hidden">petit bonus, trouve le bouton caché sur le site. bonne chance...</div>
         <a href="bouton_caché.html" class="hidden-button">GG</a>
     </body>
 </html>
